@@ -1,0 +1,33 @@
+body {
+    background-color: #6AC5AC;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container  {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+    margin: 0 75px;
+    grid-gap: 20px 40px;
+}
+
+.item {
+    height: 30px;
+    border: 1px solid transparent;
+    background-color: white;
+    border-radius: 5px;
+    height: 30vh;
+    width: 20vw;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+img {
+    height: 12vh;
+}
